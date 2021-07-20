@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <h2>Personal Information</h2>
+    <br />
+
+
+
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Bio Data</legend>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" placeholder="First Name" />
+
+            <label for="lname">Last Name: </label>
+            <input type="text" name="lname" placeholder="Last Name" /><br /> <br />
+
+            <label for="Gender">Gender:</label><br />
+
+            <input type="radio" name="gender" value="male" />
+            <label for=" Male">Male:</label>
+
+            <input type="radio" name="gender" value="Female" />
+            <label for="Female">Female:</label>
+
+            <input type="radio" name="gender" value="Other" />
+            <label for="Other">Other:</label><br /> <br />
+
+            <label for="Dob">Date of Birth:</label>
+            <input type="date" name="Dob" /><br /><br />
+
+            <label for="email">Email Id:</label>
+            <input type="email" name="email" placeholder=" Enter your Email Id" /><br /><br />
+
+            <label for="Phone no">Phone No:</label>
+            <input type="number" name="phone no" placeholder="+91" /><br /><br />
+
+            <label for="height">Height:</label>
+            <input type="text" name="height" placeholder="Height in Feets" />
+
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="SchoolName">School Name :</label>
+            <input type="text" name="schoolname" placeholder="School Name" /><br /><br />
+
+            <label for="Class">Class :</label>
+            <input type="text" name="Class" placeholder="Enter Class" /><br /><br />
+
+            <label for="Stream">Stream :</label>
+            <select name="stream">
+                <option value="NonMedical">Non Medical</option>
+                <option value="Medical">Medical</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Humanities">Humanities</option>
+            </select><br /><br />
+            <label for="Marksheet">Maarksheet :</label>
+            <input type="file" /><br />
+
+        </fieldset>
+        <br />
+        <input type="submit" />
+    </form>
+    <br />
+    <br />
+    <table border="10" cellpadding="10" cellspacing="10">
+        <thead>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hindi</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td rowspan="2">Games</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Hindi</td>
+                <td>Physics</td>
+                <td>Maths</td>
+
+            </tr>
+            <tr>
+                <td>Hindi</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td rowspan="2">Music</td>
+            </tr>
+            <tr>
+                <td>Hindi</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Physics</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="5">Class Time Table For Class IX</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
