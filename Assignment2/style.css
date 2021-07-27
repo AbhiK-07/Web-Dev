@@ -1,0 +1,27 @@
+﻿
+div {
+    border: 4px solid black;
+    background-color: lightskyblue;
+    font-size: 30px;
+    margin: 20px auto;
+}
+
+div {
+    position: sticky;
+    top: 30px;
+}
+dd::before {
+    content: "\260E";
+   
+}
+dt {
+    position: sticky;
+}
+dd {
+    
+    white-space: nowrap;
+}
+    
+h2{
+    color:royalblue;
+}
