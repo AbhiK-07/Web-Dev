@@ -1,0 +1,28 @@
+﻿* {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-family: 'sans-serif';
+}
+body {
+    background-color:darkolivegreen;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+button {
+    
+    font-size: 2.0rem;
+    font-weight: bold;
+    background-color: #ffc8dd;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+    button:hover {
+        background-color: #a2d2ff;
+        color: #e39774;
+        box-shadow: 2px 2px 4px white;
+    }
+
